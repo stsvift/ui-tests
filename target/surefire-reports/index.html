@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-CrossBrowser_DemoQA" class="navigator-link">
+              <span class="suite-name border-passed">CrossBrowser DemoQA</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-CrossBrowser_DemoQA" class="navigator-link ">
+                    <span>C:\Users\Stepan\IdeaProjects\ui-tests\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-CrossBrowser_DemoQA" class="navigator-link ">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-CrossBrowser_DemoQA" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-CrossBrowser_DemoQA" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-CrossBrowser_DemoQA" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-CrossBrowser_DemoQA" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-CrossBrowser_DemoQA" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">15 methods,   15 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-CrossBrowser_DemoQA" class="hide-methods passed suite-CrossBrowser_DemoQA"> (hide)</a> <!-- hide-methods passed suite-CrossBrowser_DemoQA -->
+                      <a href="#" panel-name="suite-CrossBrowser_DemoQA" class="show-methods passed suite-CrossBrowser_DemoQA"> (show)</a> <!-- show-methods passed suite-CrossBrowser_DemoQA -->
+                    </span>
+                    <div class="method-list-content passed suite-CrossBrowser_DemoQA">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossBrowser_DemoQA" title="tests.AlertsTest" class="method navigator-link" hash-for-method="shouldAcceptAlert">shouldAcceptAlert</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossBrowser_DemoQA" title="tests.AlertsTest" class="method navigator-link" hash-for-method="shouldAcceptAlert">shouldAcceptAlert</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossBrowser_DemoQA" title="tests.AlertsTest" class="method navigator-link" hash-for-method="shouldAcceptAlert">shouldAcceptAlert</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossBrowser_DemoQA" title="tests.AlertsTest" class="method navigator-link" hash-for-method="shouldAcceptPromptWithText">shouldAcceptPromptWithText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossBrowser_DemoQA" title="tests.AlertsTest" class="method navigator-link" hash-for-method="shouldAcceptPromptWithText">shouldAcceptPromptWithText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossBrowser_DemoQA" title="tests.AlertsTest" class="method navigator-link" hash-for-method="shouldAcceptPromptWithText">shouldAcceptPromptWithText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossBrowser_DemoQA" title="tests.AlertsTest" class="method navigator-link" hash-for-method="shouldDismissConfirm">shouldDismissConfirm</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossBrowser_DemoQA" title="tests.AlertsTest" class="method navigator-link" hash-for-method="shouldDismissConfirm">shouldDismissConfirm</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossBrowser_DemoQA" title="tests.AlertsTest" class="method navigator-link" hash-for-method="shouldDismissConfirm">shouldDismissConfirm</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossBrowser_DemoQA" title="tests.TextBoxTest" class="method navigator-link" hash-for-method="shouldHighlightInvalidEmail">shouldHighlightInvalidEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossBrowser_DemoQA" title="tests.TextBoxTest" class="method navigator-link" hash-for-method="shouldHighlightInvalidEmail">shouldHighlightInvalidEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossBrowser_DemoQA" title="tests.TextBoxTest" class="method navigator-link" hash-for-method="shouldHighlightInvalidEmail">shouldHighlightInvalidEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossBrowser_DemoQA" title="tests.TextBoxTest" class="method navigator-link" hash-for-method="shouldSubmitValidData">shouldSubmitValidData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossBrowser_DemoQA" title="tests.TextBoxTest" class="method navigator-link" hash-for-method="shouldSubmitValidData">shouldSubmitValidData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossBrowser_DemoQA" title="tests.TextBoxTest" class="method navigator-link" hash-for-method="shouldSubmitValidData">shouldSubmitValidData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-CrossBrowser_DemoQA -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-CrossBrowser_DemoQA" class="panel CrossBrowser_DemoQA">
+          <div class="suite-CrossBrowser_DemoQA-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.TextBoxTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldHighlightInvalidEmail">
+                  </a> <!-- shouldHighlightInvalidEmail -->
+                  <span class="method-name">shouldHighlightInvalidEmail</span>
+                  <em>
+(Проверка невалидного email)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldHighlightInvalidEmail">
+                  </a> <!-- shouldHighlightInvalidEmail -->
+                  <span class="method-name">shouldHighlightInvalidEmail</span>
+                  <em>
+(Проверка невалидного email)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldHighlightInvalidEmail">
+                  </a> <!-- shouldHighlightInvalidEmail -->
+                  <span class="method-name">shouldHighlightInvalidEmail</span>
+                  <em>
+(Проверка невалидного email)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldSubmitValidData">
+                  </a> <!-- shouldSubmitValidData -->
+                  <span class="method-name">shouldSubmitValidData</span>
+                  <em>
+(Отправка формы с корректными данными)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldSubmitValidData">
+                  </a> <!-- shouldSubmitValidData -->
+                  <span class="method-name">shouldSubmitValidData</span>
+                  <em>
+(Отправка формы с корректными данными)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldSubmitValidData">
+                  </a> <!-- shouldSubmitValidData -->
+                  <span class="method-name">shouldSubmitValidData</span>
+                  <em>
+(Отправка формы с корректными данными)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CrossBrowser_DemoQA-class-passed -->
+          <div class="suite-CrossBrowser_DemoQA-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.AlertsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldAcceptAlert">
+                  </a> <!-- shouldAcceptAlert -->
+                  <span class="method-name">shouldAcceptAlert</span>
+                  <em>
+(Принятие обычного alert)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldAcceptAlert">
+                  </a> <!-- shouldAcceptAlert -->
+                  <span class="method-name">shouldAcceptAlert</span>
+                  <em>
+(Принятие обычного alert)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldAcceptAlert">
+                  </a> <!-- shouldAcceptAlert -->
+                  <span class="method-name">shouldAcceptAlert</span>
+                  <em>
+(Принятие обычного alert)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldAcceptPromptWithText">
+                  </a> <!-- shouldAcceptPromptWithText -->
+                  <span class="method-name">shouldAcceptPromptWithText</span>
+                  <em>
+(Ввод текста в Prompt)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldAcceptPromptWithText">
+                  </a> <!-- shouldAcceptPromptWithText -->
+                  <span class="method-name">shouldAcceptPromptWithText</span>
+                  <em>
+(Ввод текста в Prompt)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldAcceptPromptWithText">
+                  </a> <!-- shouldAcceptPromptWithText -->
+                  <span class="method-name">shouldAcceptPromptWithText</span>
+                  <em>
+(Ввод текста в Prompt)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldDismissConfirm">
+                  </a> <!-- shouldDismissConfirm -->
+                  <span class="method-name">shouldDismissConfirm</span>
+                  <em>
+(Отмена Confirm)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldDismissConfirm">
+                  </a> <!-- shouldDismissConfirm -->
+                  <span class="method-name">shouldDismissConfirm</span>
+                  <em>
+(Отмена Confirm)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldDismissConfirm">
+                  </a> <!-- shouldDismissConfirm -->
+                  <span class="method-name">shouldDismissConfirm</span>
+                  <em>
+(Отмена Confirm)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CrossBrowser_DemoQA-class-passed -->
+        </div> <!-- panel CrossBrowser_DemoQA -->
+        <div panel-name="test-xml-CrossBrowser_DemoQA" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Stepan\IdeaProjects\ui-tests\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;CrossBrowser DemoQA&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;Chrome&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;headless&quot; value=&quot;false&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.TextBoxTest&quot;/&gt;
+      &lt;class name=&quot;tests.AlertsTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Chrome --&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;Firefox&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;headless&quot; value=&quot;false&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.TextBoxTest&quot;/&gt;
+      &lt;class name=&quot;tests.AlertsTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Firefox --&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;Edge&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;headless&quot; value=&quot;false&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;edge&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.TextBoxTest&quot;/&gt;
+      &lt;class name=&quot;tests.AlertsTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Edge --&gt;
+&lt;/suite&gt; &lt;!-- CrossBrowser DemoQA --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-CrossBrowser_DemoQA" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for CrossBrowser DemoQA</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Chrome (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Firefox (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Edge (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-CrossBrowser_DemoQA" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for CrossBrowser DemoQA</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-CrossBrowser_DemoQA" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for CrossBrowser DemoQA</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_CrossBrowser_DemoQA');
+function tableData_CrossBrowser_DemoQA() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(15);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'shouldHighlightInvalidEmail')
+data.setCell(0, 2, 'tests.TextBoxTest')
+data.setCell(0, 3, 3113);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'shouldSubmitValidData')
+data.setCell(1, 2, 'tests.TextBoxTest')
+data.setCell(1, 3, 2784);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'shouldDismissConfirm')
+data.setCell(2, 2, 'tests.AlertsTest')
+data.setCell(2, 3, 2579);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'shouldAcceptAlert')
+data.setCell(3, 2, 'tests.AlertsTest')
+data.setCell(3, 3, 2472);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'shouldAcceptPromptWithText')
+data.setCell(4, 2, 'tests.AlertsTest')
+data.setCell(4, 3, 2421);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'shouldSubmitValidData')
+data.setCell(5, 2, 'tests.TextBoxTest')
+data.setCell(5, 3, 1678);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'shouldHighlightInvalidEmail')
+data.setCell(6, 2, 'tests.TextBoxTest')
+data.setCell(6, 3, 1546);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'shouldSubmitValidData')
+data.setCell(7, 2, 'tests.TextBoxTest')
+data.setCell(7, 3, 1511);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'shouldHighlightInvalidEmail')
+data.setCell(8, 2, 'tests.TextBoxTest')
+data.setCell(8, 3, 1440);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'shouldAcceptPromptWithText')
+data.setCell(9, 2, 'tests.AlertsTest')
+data.setCell(9, 3, 1169);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'shouldAcceptAlert')
+data.setCell(10, 2, 'tests.AlertsTest')
+data.setCell(10, 3, 1162);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'shouldDismissConfirm')
+data.setCell(11, 2, 'tests.AlertsTest')
+data.setCell(11, 3, 1152);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'shouldAcceptPromptWithText')
+data.setCell(12, 2, 'tests.AlertsTest')
+data.setCell(12, 3, 1092);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'shouldAcceptAlert')
+data.setCell(13, 2, 'tests.AlertsTest')
+data.setCell(13, 3, 1091);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'shouldDismissConfirm')
+data.setCell(14, 2, 'tests.AlertsTest')
+data.setCell(14, 3, 936);
+window.suiteTableData['CrossBrowser_DemoQA']= { tableData: data, tableDiv: 'times-div-CrossBrowser_DemoQA'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 30 seconds</span>
+              <div id="times-div-CrossBrowser_DemoQA">
+              </div> <!-- times-div-CrossBrowser_DemoQA -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-CrossBrowser_DemoQA" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for CrossBrowser DemoQA</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-CrossBrowser_DemoQA" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-CrossBrowser_DemoQA" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.TextBoxTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, false)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox, false)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(edge, false)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shouldHighlightInvalidEmail</span>
+                <span class="method-start">1248 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">shouldHighlightInvalidEmail</span>
+                <span class="method-start">2299 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=shouldHighlightInvalidEmail status=SUCCESS method=TextBoxTest.shouldHighlightInvali...)</span>
+                <span class="method-start">2698 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, false)</span>
+                <span class="method-start">2851 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shouldSubmitValidData</span>
+                <span class="method-start">3393 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=shouldHighlightInvalidEmail status=SUCCESS method=TextBoxTest.shouldHighlightInvali...)</span>
+                <span class="method-start">3847 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">shouldHighlightInvalidEmail</span>
+                <span class="method-start">3972 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(edge, false)</span>
+                <span class="method-start">3972 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shouldSubmitValidData</span>
+                <span class="method-start">4809 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=shouldSubmitValidData status=SUCCESS method=TextBoxTest.shouldSubmitValidData()[pri...)</span>
+                <span class="method-start">4904 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AlertsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, false)</span>
+                <span class="method-start">5059 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shouldAcceptAlert</span>
+                <span class="method-start">5619 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.TextBoxTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=shouldSubmitValidData status=SUCCESS method=TextBoxTest.shouldSubmitValidData()[pri...)</span>
+                <span class="method-start">6488 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AlertsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(edge, false)</span>
+                <span class="method-start">6631 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=shouldAcceptAlert status=SUCCESS method=AlertsTest.shouldAcceptAlert()[pri:0, insta...)</span>
+                <span class="method-start">6712 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, false)</span>
+                <span class="method-start">6831 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.TextBoxTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=shouldHighlightInvalidEmail status=SUCCESS method=TextBoxTest.shouldHighlightInvali...)</span>
+                <span class="method-start">7086 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AlertsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">shouldAcceptAlert</span>
+                <span class="method-start">7304 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">shouldAcceptPromptWithText</span>
+                <span class="method-start">7465 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.TextBoxTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox, false)</span>
+                <span class="method-start">7970 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AlertsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=shouldAcceptAlert status=SUCCESS method=AlertsTest.shouldAcceptAlert()[pri:0, insta...)</span>
+                <span class="method-start">8468 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=shouldAcceptPromptWithText status=SUCCESS method=AlertsTest.shouldAcceptPromptWithT...)</span>
+                <span class="method-start">8558 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(edge, false)</span>
+                <span class="method-start">8618 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, false)</span>
+                <span class="method-start">8693 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shouldAcceptPromptWithText</span>
+                <span class="method-start">9286 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">shouldDismissConfirm</span>
+                <span class="method-start">9307 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=shouldDismissConfirm status=SUCCESS method=AlertsTest.shouldDismissConfirm()[pri:0,...)</span>
+                <span class="method-start">10244 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=shouldAcceptPromptWithText status=SUCCESS method=AlertsTest.shouldAcceptPromptWithT...)</span>
+                <span class="method-start">10456 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(edge, false)</span>
+                <span class="method-start">10578 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shouldDismissConfirm</span>
+                <span class="method-start">11098 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.TextBoxTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">shouldSubmitValidData</span>
+                <span class="method-start">11113 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AlertsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=shouldDismissConfirm status=SUCCESS method=AlertsTest.shouldDismissConfirm()[pri:0,...)</span>
+                <span class="method-start">12252 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.TextBoxTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=shouldSubmitValidData status=SUCCESS method=TextBoxTest.shouldSubmitValidData()[pri...)</span>
+                <span class="method-start">13899 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AlertsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox, false)</span>
+                <span class="method-start">14449 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shouldAcceptAlert</span>
+                <span class="method-start">16599 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=shouldAcceptAlert status=SUCCESS method=AlertsTest.shouldAcceptAlert()[pri:0, insta...)</span>
+                <span class="method-start">19072 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox, false)</span>
+                <span class="method-start">19632 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shouldAcceptPromptWithText</span>
+                <span class="method-start">21848 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=shouldAcceptPromptWithText status=SUCCESS method=AlertsTest.shouldAcceptPromptWithT...)</span>
+                <span class="method-start">24271 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox, false)</span>
+                <span class="method-start">24842 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shouldDismissConfirm</span>
+                <span class="method-start">26950 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=shouldDismissConfirm status=SUCCESS method=AlertsTest.shouldDismissConfirm()[pri:0,...)</span>
+                <span class="method-start">29531 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
