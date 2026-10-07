@@ -20,6 +20,8 @@
         <classes>
             <class name="tests.TextBoxTest"/>
             <class name="tests.AlertsTest"/>
+            <class name="tests.ButtonsTest"/>
+            <class name="tests.SliderTest"/>
         </classes>
 
     </test>
@@ -37,6 +39,8 @@
         <classes>
             <class name="tests.TextBoxTest"/>
             <class name="tests.AlertsTest"/>
+            <class name="tests.ButtonsTest"/>
+            <class name="tests.SliderTest"/>
         </classes>
 
     </test>
@@ -54,6 +58,8 @@
         <classes>
             <class name="tests.TextBoxTest"/>
             <class name="tests.AlertsTest"/>
+            <class name="tests.ButtonsTest"/>
+            <class name="tests.SliderTest"/>
         </classes>
 
     </test>

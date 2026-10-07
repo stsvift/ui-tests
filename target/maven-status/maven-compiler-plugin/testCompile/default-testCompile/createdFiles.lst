@@ -1,7 +1,0 @@
-pages\BasePage.class
-utils\AllureAttachments.class
-tests\TextBoxTest.class
-tests\BaseTest.class
-pages\AlertsPage.class
-pages\TextBoxPage.class
-tests\AlertsTest.class
